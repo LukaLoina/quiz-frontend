@@ -1,0 +1,24 @@
+.timer-bar-outline {
+  background-color: whiteSmoke;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25) inset;
+
+  width: 100%;
+  height: 20px;
+  
+  position: relative;
+  display: block;
+}
+  
+.timer-bar {
+  background-color: red;
+  display: block;
+  text-indent: -9999px;
+  width: 0%;
+  height:100%;
+}
+
+@keyframes timer-bar-animation
+{
+    from { width: 100%; }
+    to { width: 0%; }
+}

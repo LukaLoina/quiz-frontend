@@ -1,0 +1,46 @@
+.question-box
+{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    animation: fadein 0.1s;
+
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.question-title
+{
+    border-bottom: 1px solid black;
+    padding: 0.5em 0em 0.5em 1em;
+    background: #1a517b;
+    overflow: hidden;
+    color: white;
+    font-weight: bold;
+}
+
+.question-text
+{
+    margin: 1em 2em;
+    font-size: 1.2em;
+}
+
+.question-text-input
+{
+    width: 4em;
+    padding: 0;
+}
+
+.question-answer-button
+{
+    padding: 0.2em;
+    border: none;
+    font: inherit;
+    background: #1a517b;
+    color:white;
+    width: 100%;
+    font-weight: bold;
+}

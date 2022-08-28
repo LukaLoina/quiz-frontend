@@ -1,0 +1,15 @@
+{
+  "short_name": "AMST",
+  "name": "arithmetic mental stress test",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1a517b",
+  "background_color": "#ffffff"
+}

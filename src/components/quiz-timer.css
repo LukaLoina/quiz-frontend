@@ -1,0 +1,36 @@
+.quiz-timer-separator
+{
+    height:1px;
+    background:black;
+}
+.quiz-timer-outline
+{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    height:2em;
+    animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.quiz-timer-bar
+{
+    #background-color: #e63832;
+    background-color: rgb(e6, 38, 32);
+    position:absolute;
+}
+
+.quiz-countdown
+{
+    z-index:2;
+    align-self: center;
+    color: rgb(255, 0, 0);
+    filter: invert(1);
+    mix-blend-mode: difference;
+    font-size:2em;
+    font-weight: bold;
+}
